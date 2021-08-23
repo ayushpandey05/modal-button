@@ -233,7 +233,7 @@ class ModalButton extends React.Component {
         onPress={this.onButtonPress}
         style={style}
       >
-        <Modal transparent visible={visible}>
+        <Modal transparent onRequestClose={this.hideModal} visible={visible}>
           <TouchableOpacity
             onPress={autoHide && this.hideModal}
             activeOpacity={1}
