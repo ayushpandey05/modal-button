@@ -6,7 +6,7 @@ import {
   Platform,
   StyleSheet,
   StatusBar,
-} from "@hybrid/core-components";
+} from "@react-easy-ui/core-components";
 
 const STATUS_BAR_HEIGHT = StatusBar.currentHeight;
 
